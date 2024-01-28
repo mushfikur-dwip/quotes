@@ -1,0 +1,116 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: rgb(50, 73, 205)
+}
+
+/* Function to generate a random color in hexadecimal format
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+} */
+
+.card {
+    background-color: #fff; /* Default background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+cite {
+    font-size: 1rem;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.share-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.share-button:hover {
+    background-color: #1981e1;
+}
+/* Default styles for larger screens */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    body {
+        padding: 20px; /* Add some padding for smaller screens */
+    }
+
+    .card {
+        width: 90%; /* Adjust card width for smaller screens */
+    }
+
+    .quote {
+        font-size: 1.2rem; /* Decrease font size for smaller screens */
+    }
+
+    .buttons {
+        flex-direction: column; /* Stack buttons vertically for smaller screens */
+    }
+
+    button {
+        margin-bottom: 10px; /* Add some spacing between buttons */
+    }
+}

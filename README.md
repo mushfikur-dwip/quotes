@@ -27,8 +27,10 @@ Live - [Click Here](https://mushfikur-dwip.github.io/quotes)
 ## Screenshots
 
 Web Version
+
 ![App Screenshot](https://i.ibb.co/7tFjsBX/image.png)
 
 Mobile Verison
+
 ![App Screenshot](https://i.ibb.co/hLs2z93/image.png)
 

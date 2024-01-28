@@ -14,7 +14,7 @@ Technology: ChatGPT 3.5
 
 ## Demo
 
-Live - [Click Here](https://mushfikur-dwip.github.io/quotes)
+Live - [Click Here](https://nfc.mushfikur.me/quotes/)
 
 ## Language 
 

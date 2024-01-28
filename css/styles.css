@@ -9,7 +9,7 @@ body {
     background-color: rgb(50, 73, 205)
 }
 
-/* Function to generate a random color in hexadecimal format
+Function to generate a random color in hexadecimal format
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -17,7 +17,7 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-} */
+}
 
 .card {
     background-color: #fff; /* Default background color */
